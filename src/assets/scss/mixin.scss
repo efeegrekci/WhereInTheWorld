@@ -1,0 +1,22 @@
+@mixin NunitoSansBold {font-family: 'NunitoSansBold';font-weight: bold;font-style: normal;}
+@mixin NunitoSansSemiBold {font-family: 'NunitoSansSemiBold';font-weight: 600;font-style: normal;}
+@mixin NunitoSansLight {font-family: 'NunitoSansLight';font-weight: 300;font-style: normal;}
+
+@mixin FullCentered{display: flex;justify-content: center;align-items: center;}
+@mixin FlexCenter{display: flex;justify-content: center;}
+@mixin SpaceBeetween {display: flex; justify-content: space-between;}
+@mixin SpaceBeetweenCenter {display: flex; justify-content: space-between; align-items: center;}
+@mixin FlexStart {display: flex; justify-content: flex-start;}
+@mixin FlexEnd {display: flex; justify-content: flex-end;}
+@mixin FlexStartCenter {display: flex; justify-content: flex-start; align-items: center;}
+@mixin FlexEndCenter {display: flex; justify-content: flex-end; align-items: center;}
+@mixin FlexDirection {display: flex; flex-direction: column;}
+@mixin FlexWrap {display: flex; flex-wrap: wrap;}
+@mixin StandartAbsolute {position: absolute; top: 0; left: 0;}
+@mixin Images {background-position: center center; background-repeat: no-repeat;background-size: contain;}
+
+$DarkBlue: #2b3945;
+$VeryDarkBlue: #202c37;
+$SmallDarkBlue: #e1ecf2;
+$LightDarkBlue :#a5afb8;
+$White: #ffffff;
